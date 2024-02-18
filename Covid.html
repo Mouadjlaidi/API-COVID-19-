@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques COVID-19 </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="titre">
+    <div class="display-4 text-center">Dernières statistiques COVID 19</div>
+  </div>
+
+  <div class="Container">
+        <div class="covidInput">
+          <p>Choisissez un pays:</p>
+          <select class="form-control" id="countries" style="width: 300px;">
+            <option>Choisissez un pays:</option>
+          </select>
+        </div>
+        <hr class="Separator">
+        <div class="text-center">
+          <p class="Info" id="NouveauxCas">Nouveaux cas confirmés: /</p>
+          <p class="Info" id="TotalCas">Total des cas confirmés: /</p>
+          <p class="Info" id="NouveauxDécès">Nouveaux décès: /</p>
+          <p class="Info" id="TotalDécès">Décès totaux: /</p>
+          <p class="Info" id="Date">Dernière mise à jour: /</p>
+        </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

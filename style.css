@@ -1,0 +1,57 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.titre {
+    color: white;
+    text-align: center; /* Center the text on all screen sizes */
+}
+
+.Container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 90%; /* Adjusted width for larger screens */
+    max-width: 500px; /* Maximum width for smaller screens */
+    color: white;
+}
+
+.Info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.covidInput {
+    line-height: 2;
+}
+
+#countries {
+    width: 100%;
+}
+
+.mySeparator {
+    height: 0.5px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 767px) {
+    body {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Container {
+        width: 90%;
+    }
+
+    #countries {
+        width: 100%;
+    }
+}
